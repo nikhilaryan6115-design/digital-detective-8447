@@ -49,6 +49,7 @@ Throughout this project, I gained practical proficiency in:
 1. **Navigating the Command Line:** Interacting comfortably with the Unix terminal, managing directories safely, using flags (`-lah`), and filtering output with pipes (`|`).
 2. **Data Representation & Computation:** Calculating base conversions by hand, verifying them with Python, and understanding how bits and character encodings represent information.
 3. **Collaborative Version Control:** Managing multi-step development with Git, creating isolated branches, submitting Pull Requests, and maintaining clean commit histories.
+4. **Networking Principles:** Understanding packet switching, DNS lookup resolution, and the request-response lifecycle between clients and web servers.
 
 ## 6. Documentation and Commit Note
 Every mission was conducted sequentially, individually documented in dedicated mission folders with standardized `README.md` files and supporting notes/scripts, and committed as a distinct checkpoint throughout the project lifecycle.
