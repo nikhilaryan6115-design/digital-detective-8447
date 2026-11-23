@@ -1,32 +1,33 @@
-# Mission 4 - Python Programming, Compilers & Interpreters
+# Mission 4 — How programs run
 
-## 1. Mission title
-Mission 4 - Python Programming, Compilers & Interpreters
+## 1. Task / objective
+Create and run a simple Python program (`hello.py`) from the Terminal and compare how compilers and interpreters translate and execute software.
 
-## 2. Task/objective
-Create and execute a basic Python program from the terminal and compare the mechanics of compilers and interpreters.
+## 2. Work completed
+* Created `hello.py` containing a single-line script displaying "Hello from Python".
+* Executed the script from the Terminal using `python3` and confirmed the expected output.
+* Completed a comparison table evaluating compilers and interpreters across translation timing, output format, examples, and advantages.
+* Documented a clear conceptual explanation contrasting compiled and interpreted execution in `mission-04-programs/notes.md`.
 
-## 3. Work completed
-* Created and executed `hello.py` using Python 3 via the terminal.
-* Documented program execution and output verification.
-* Compared compilers and interpreters across translation timing, output types, examples, and advantages.
+## 3. Commands / tools used
+* `python3 hello.py`: Ran the Python 3 script via Terminal.
+* `cat hello.py`: Displayed the file contents.
+* VS Code / Text Editor: Created script and markdown notes.
 
-## 4. Commands / tools used
-* Terminal CLI (`cat`, `python3`).
+## 4. My understanding
+Compilers translate source code all at once into machine code before program execution, resulting in high runtime speed and standalone executables. Interpreters execute code instructions line-by-line dynamically at runtime, enabling rapid interactive development and straightforward debugging at the trade-off of execution speed.
 
-## 5. My understanding
-Program execution involves translating human-readable source code into machine instructions. Interpreters execute code dynamically line-by-line for fast interactive feedback, whereas compilers translate code entirely beforehand into standalone binaries for optimized performance.
+## 5. Difficulties faced
+No major difficulties.
 
-## 6. Difficulties faced
-None.
-
-## 7. How I resolved them
+## 6. How I resolved them
 Not applicable.
 
-## 8. Evidence / files
-* `hello.py`
-* `notes.md` containing task tables and written comparisons.
+## 7. Evidence / files
+* `mission-04-programs/hello.py`
+* `mission-04-programs/notes.md` (Contains execution output and compiler vs. interpreter comparison)
+* `mission-04-programs/README.md`
 
-## 9. Commit details
-* **Commit message:** Compare compilers and interpreters
-* Pushed successfully to GitHub.
+## 8. Commit details
+* **Commit message:** `Compare compilers and interpreters`
+* Pushed to remote: `https://github.com/nikhilaryan6115-design/digital-detective-8447`

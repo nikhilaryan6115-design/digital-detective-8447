@@ -1,31 +1,31 @@
-# Mission 1 - Computer fundamentals and IPOS
+# Mission 1 — Know your computer
 
-## 1. Mission title
-Mission 1 - Computer fundamentals and IPOS
+## 1. Task / objective
+Explain how a computer receives input, processes information, produces output, and stores results (IPOS cycle), and identify hardware, software, and everyday computer-based systems.
 
-## 2. Task/objective
-Explain how a computer receives input, processes information, produces output, and stores results, and identify hardware/software systems[cite: 4].
+## 2. Work completed
+* Traced a complete computer activity (Saving a Document) through every stage of the IPOS cycle with corresponding hardware components.
+* Identified and categorized four hardware components and four software applications (Operating System, Application, and Utility software).
+* Analyzed three everyday computer systems (ATM, Smart Traffic Signal, and Smart TV) detailing their primary purpose, inputs, and outputs.
+* Recorded all findings and tables in `mission-01-computer-basics/notes.md`.
 
-## 3. Work completed
-* Completed IPOS trace table for a document-saving activity[cite: 4].
-* Listed four hardware items and four software examples with categories[cite: 4].
-* Described three everyday computer-based systems[cite: 4].
+## 3. Commands / tools used
+* Markdown / Text Editor: Documented analysis tables and technical explanations.
+* Git: Staged and committed completed mission documentation.
 
-## 4. Commands / tools used
-* Conceptual analysis and documentation.
+## 4. My understanding
+Computers operate on the fundamental IPOS cycle: accepting user input, processing it via the CPU and RAM, generating human- or machine-readable output, and committing data to persistent storage. Hardware provides the physical circuitry, while system, application, and utility software instruct the hardware to perform meaningful tasks.
 
-## 5. My understanding
-Computers rely on the IPOS cycle. Hardware provides physical structure, and software instructs the hardware on processing data.
-
-## 6. Difficulties faced
+## 5. Difficulties faced
 No major difficulties.
 
-## 7. How I resolved them
+## 6. How I resolved them
 Not applicable.
 
-## 8. Evidence / files
-* Completed IPOS, hardware/software, and everyday system tables.
+## 7. Evidence / files
+* `mission-01-computer-basics/notes.md` (Contains IPOS trace table, hardware/software classification table, and everyday systems table)
+* `mission-01-computer-basics/README.md`
 
-## 9. Commit details
-* **Commit message:** `Complete computer basics and IPOS mission`[cite: 13]
-* Pushed successfully to GitHub.
+## 8. Commit details
+* **Commit message:** `Complete computer basics and IPOS mission`
+* Pushed to remote: `https://github.com/nikhilaryan6115-design/digital-detective-8447`

@@ -1,37 +1,38 @@
-# Mission 5 - Number Systems & Data Representation
+# Mission 5 — Numbers and data
 
-## 1. Mission title
-Mission 5 - Number Systems & Data Representation
+## 1. Task / objective
+Convert decimal, binary, and hexadecimal values by hand, verify the calculations using Python, build an interactive number converter program (`number_converter.py`), and explain text encoding principles (ASCII and UTF-8).
 
-## 2. Task/objective
-Perform number system conversions by hand, verify calculations using Python, build an interactive number converter program in Python, and explore text encoding standards (ASCII and UTF-8).
+## 2. Work completed
+* Solved 7 number conversions by hand with complete mathematical steps (repeated division for decimal-to-binary, positional expansion for binary/hex-to-decimal, and 4-bit grouping).
+* Verified each conversion interactively in Python using `bin()`, `int()`, and `hex()`.
+* Built and tested `number_converter.py`, which prompts for a decimal number and outputs its binary and hexadecimal equivalents.
+* Tested the program with three positive numbers (10, 42, 255) and documented function behavior.
+* Answered questions on ASCII codes for 'A' and 'a', the purpose of text encoding standards, and non-ASCII character examples.
 
-## 3. Work completed
-* Completed manual calculations and step-by-step working for decimal, binary, and hexadecimal conversions.
-* Verified conversions in Python using built-in interactive expressions (`bin()`, `int()`, `hex()`).
-* Developed and tested `number_converter.py` to accept user input and output binary and hexadecimal equivalents.
-* Documented ASCII codes, text encoding necessity, and extended character support.
+## 3. Commands / tools used
+* `python3 number_converter.py`: Ran the interactive converter program.
+* Python interactive shell (`python3`): Verified conversions using `bin()`, `hex()`, and `int()`.
+* Python built-in functions:
+  * `input()`: Accepts decimal number input from the user as a string.
+  * `int()`: Parses string input into an integer.
+  * `bin()`: Converts integer to binary string prefixed with `0b`.
+  * `hex()`: Converts integer to hexadecimal string prefixed with `0x`.
 
-## 4. Commands / tools and Python functions used
-* **Terminal CLI / Git:** `python3`, `git add`, `git commit`, `git push`.
-* **Python Functions:** `input()`, `int()`, `bin()`, `hex()`.
+## 4. My understanding
+All digital data is ultimately stored and manipulated as bits (0 and 1). Number systems like binary (base 2) and hexadecimal (base 16) provide compact, mathematically aligned representations of underlying machine bytes. Character encodings like ASCII and UTF-8 map these numeric values into human-readable symbols, enabling cross-platform text storage and communication.
 
-## 5. How the converter works
-The program prompts the user to enter a positive decimal number via `input()`, casts the input string to an integer using `int()`, transforms the integer into binary using `bin()` and hexadecimal using `hex()`, and then prints both formatted outputs to the terminal.
+## 5. Difficulties faced
+No major difficulties.
 
-## 6. My understanding
-Computers represent all data internally using binary logic. Understanding number systems and character encodings clarifies how underlying hardware translates numeric bytes into human-readable characters and mathematical values.
-
-## 7. Difficulties faced
-None.
-
-## 8. How I resolved them
+## 6. How I resolved them
 Not applicable.
 
-## 9. Evidence / files
-* `number_converter.py`
-* `notes.md` containing manual workings, Python verifications, test tables, and text encoding notes.
+## 7. Evidence / files
+* `mission-05-numbers-data/number_converter.py`
+* `mission-05-numbers-data/notes.md` (Contains manual conversion steps, Python verifications, test results table, and text encoding analysis)
+* `mission-05-numbers-data/README.md`
 
-## 10. Commit details
-* **Commit message:** Build number converter and practise data representation
-* Pushed successfully to GitHub[cite: 12].
+## 8. Commit details
+* **Commit message:** `Build number converter and practise data representation`
+* Pushed to remote: `https://github.com/nikhilaryan6115-design/digital-detective-8447`

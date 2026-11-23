@@ -1,4 +1,6 @@
 
+# Mission 3 - Operating System, Processes & Permissions Notes
+
 ## Task 3.1 — Explore your operating system
 
 | Information explored | What it tells you | Your observation (privacy-safe) |
@@ -25,18 +27,18 @@
 
 ### Paths Explanation & Examples:
 - **Absolute Path vs. Relative Path:**
-  An **absolute path** defines the complete location of a file or directory starting from the filesystem root `/` (e.g., `/Users/[redacted]/digital-detective-[USN]/mission-03-operating-system`). A **relative path** specifies the location relative to your current working directory (e.g., `mission-03-operating-system/notes.md`).
+  An **absolute path** defines the complete location of a file or directory starting from the filesystem root `/` (e.g., `/Users/[redacted]/Desktop/digital-detective-8447/mission-03-operating-system`). A **relative path** specifies the location relative to your current working directory (e.g., `mission-03-operating-system/notes.md`).
 - **Examples from assignment folder:**
-  * **Absolute path example:** `/Users/vedishbansal/documents/digital-detective-8005/mission-03-operating-system`
-  * **Relative path example:** `mission-03-operating-system/notes.md`
+  * **Absolute path example:** `/Users/[redacted]/Desktop/digital-detective-8447/mission-03-operating-system`
+  * **Relative path example:** `mission-03-operating-system/notes.md`
 
 ### File Permissions Analysis:
 - **Command used:** `ls -l mission-03-operating-system/notes.md`
 - **Owner Permission Letters Observed:** `-rw-r--r--` (where the first three characters `rw-` represent the file owner's permissions).
 - **Owner Permissions Breakdown:**
-  * **Read (`r`):** Yes, the owner has permission to read the file contents.
-  * **Write (`w`):** Yes, the owner has permission to modify and write updates to the file.
-  * **Execute (`x`):** No (`-`), the owner cannot execute the file as an application script since it is a markdown text document.
+  * **Read (`r`):** Yes, the owner has permission to read the file contents.
+  * **Write (`w`):** Yes, the owner has permission to modify and write updates to the file.
+  * **Execute (`x`):** No (`-`), the owner cannot execute the file as an application script since it is a markdown text document.
 
 ## Task 3.4 — Explain operating-system responsibilities
 

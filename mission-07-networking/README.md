@@ -1,32 +1,32 @@
-# Mission 7 - Networks and the Web
+# Mission 7 — How computers communicate
 
-## 1. Mission Title
-Mission 7 - Networks and the Web
+## 1. Task / objective
+Explain basic network types and concepts (LAN, MAN, WAN, DNS, router, protocol, packet switching, client-server), observe network connectivity and DNS lookup tools, and explain the step-by-step lifecycle of opening a website.
 
-## 2. Task / Objective
-Understand core network concepts (LAN, MAN, WAN, DNS, routers, protocols, packet switching, client-server architecture), observe network connectivity via terminal tools, and explain the step-by-step lifecycle of loading a website.
+## 2. Work completed
+* Defined and illustrated eight core network concepts (LAN, MAN, WAN, DNS, router, protocol, packet switching, client-server) with practical real-world examples.
+* Tested network connectivity using `ping` and performed DNS lookup using `nslookup` from Terminal (keeping output privacy-safe and free from personal IP details).
+* Documented a clear 6-step walkthrough tracing what happens when a user opens a website, utilizing key technical terms correctly.
+* Compiled all network definitions, tool observations, and request lifecycle steps in `mission-07-networking/notes.md`.
 
-## 3. Work Completed
-* **Task 7.1:** Explained key networking concepts and provided real-world examples in a structured table.
-* **Task 7.2:** Performed privacy-safe network connectivity checks (`ping`) and DNS lookups (`nslookup`).
-* **Task 7.3:** Documented the complete 6-step request lifecycle from browser URL entry to server response rendering.
+## 3. Commands / tools used
+* `ping -c 4 <domain>`: Tested network packet reachability and measured round-trip latency.
+* `nslookup <domain>`: Queried DNS servers to resolve human-readable domain names into IP addresses.
+* Markdown / Text Editor: Documented concepts and task analyses.
 
-## 4. Network Tools & Commands Used
-* `ping`: Tests host reachability and round-trip network latency.
-* `nslookup`: Performs DNS queries to resolve domain names to IP addresses.
-* `git`: Version control commands (`git add`, `git commit`, `git push`).
+## 4. My understanding
+Computer networks bridge physical and software boundaries by routing discrete data packets across interconnected nodes. DNS translates easy-to-remember domain names into numerical IP addresses, routers direct packets across networks, and standardized communication protocols (such as TCP/IP and HTTP/HTTPS) ensure reliable data exchange between client applications and servers.
 
-## 5. What I Understood
-Networking relies on a hierarchy of standardized protocols, packet-switched routing, and DNS directory resolution to enable reliable communication between client applications and remote web servers.
+## 5. Difficulties faced
+No major difficulties.
 
-## 6. Difficulties Faced & Resolution
-* **Difficulties faced:** None.
-* **Resolution:** Not applicable.
+## 6. How I resolved them
+Not applicable.
 
-## 7. Evidence / Files
-* `notes.md` containing detailed task tables, command outputs, and request lifecycle explanations.
-* `README.md` (this file).
+## 7. Evidence / files
+* `mission-07-networking/notes.md` (Contains network concepts table, network tool observations, and website request lifecycle)
+* `mission-07-networking/README.md`
 
-## 8. Commit Details
-* **Commit message:** Explain networking concepts and website communication
-* Pushed successfully to GitHub.
+## 8. Commit details
+* **Commit message:** `Explain networking concepts and website communication`
+* Pushed to remote: `https://github.com/nikhilaryan6115-design/digital-detective-8447`

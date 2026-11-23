@@ -30,9 +30,9 @@
 ## Task 7.3 — What happens when you open a website?
 
 ### Numbered Explanation (Step-by-Step):
-1. **URL Entry & Browser Initiation (Client):** The user enters a web address into the browser address bar, initiating the request from the **client** device[cite: 11].
-2. **DNS Lookup (DNS):** The client queries the **DNS** (Domain Name System) to translate the human-readable domain name into the correct numeric IP address of the destination web server[cite: 11].
-3. **Network Transmission (Network/Router):** The client's request is packaged into data packets and transmitted through local network switches and **routers**, which forward the packets across the internet infrastructure[cite: 11].
-4. **Server Request Receipt (Server):** The target **server** receives the incoming connection request and processes what web page or resource the client is asking for[cite: 11].
-5. **Protocol Processing & Response:** Operating under standard web communication **protocols** (such as HTTP/HTTPS), the server compiles the requested website data (HTML, stylesheets, scripts) into response packets[cite: 11].
-6. **Delivery & Rendering (Response Displayed):** The response packets travel back across the network to the client, where the web browser receives them, renders the code, and displays the fully formatted website **response to the user**[cite: 11].
+1. **URL Entry & Browser Initiation (Client):** The user enters a web address (e.g., `https://example.com`) into the browser address bar, initiating the request from the **client** device.
+2. **DNS Lookup (DNS):** The client queries the **DNS** (Domain Name System) to translate the human-readable domain name into the correct numeric IP address of the destination web server.
+3. **Network Transmission (Network/Router):** The client's request is packaged into data packets and transmitted through local network switches and **routers**, which forward the packets across the internet infrastructure.
+4. **Server Request Receipt (Server):** The target **server** receives the incoming connection request and processes what web page or resource the client is asking for.
+5. **Protocol Processing & Response:** Operating under standard web communication **protocols** (such as HTTP/HTTPS and TCP/IP), the server compiles the requested website data (HTML, stylesheets, scripts) into response packets.
+6. **Delivery & Rendering (Response Displayed):** The response packets travel back across the network to the client, where the web browser receives them, renders the code, and displays the fully formatted website **response to the user**.

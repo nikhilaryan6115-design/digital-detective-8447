@@ -1,43 +1,40 @@
-# Mission 6 - Version Control and Collaboration with Git and GitHub
+# Mission 6 — Git and GitHub
 
-## 1. Mission title
-Mission 6 - Version Control and Collaboration with Git and GitHub
+## 1. Task / objective
+Understand version control, stage and commit changes, create and publish a branch (`update-about`), open and merge a Pull Request on GitHub, and build a comprehensive Git command glossary.
 
-## 2. Task / Objective
-Master basic Git version control workflows, repository inspection, staging, committing, branching, publishing branches, creating and merging Pull Requests, and building a Git command glossary.
+## 2. Work completed
+* Explored basic Git workflow operations (`status`, `add`, `commit`, `log`) and explained the difference between staging and committing.
+* Created a dedicated branch named `update-about`, added a "My Learning" section to the root `README.md`, committed the change, and pushed the branch to GitHub.
+* Opened a Pull Request from `update-about` into `main` on GitHub, reviewed the changes, merged the PR into `main`, and pulled the merged changes back locally.
+* Constructed a complete Git command glossary covering repository initialization, inspection, staging, committing, branching, pushing, and pulling in `mission-06-git-github/notes.md`.
 
-## 3. Work Completed
-* **Task 6.1:** Documented core Git workflow operations and contrasted staging vs. committing.
-* **Task 6.2:** Created and published the `update-about` branch and updated the root `README.md` with a "My Learning" section.
-* **Task 6.3:** Created, reviewed, and merged a Pull Request from `update-about` into `main` on GitHub, then synchronized local changes.
-* **Task 6.4:** Built a comprehensive Git command glossary table.
+## 3. Commands / tools used
+* `git status`: Checked working tree and staging area.
+* `git add <file>`: Staged modified files.
+* `git commit -m "..."`: Created version-controlled commits with descriptive messages.
+* `git log --oneline`: Inspected chronological commit history.
+* `git branch` / `git switch -c update-about`: Created and switched to the feature branch.
+* `git push -u origin update-about`: Published branch to GitHub.
+* `gh pr create` / GitHub Web UI: Opened Pull Request.
+* `gh pr merge` / GitHub Web UI: Merged Pull Request into `main`.
+* `git pull origin main`: Synchronized local workspace with merged remote repository.
 
-## 4. Git Operations & Commands Used
-* `git status`: Inspects working directory and staging area status.
-* `git add`: Stages modified or new files.
-* `git commit`: Permanently saves staged changes into the commit history.
-* `git log`: Views chronological commit history.
-* `git branch`: Lists or creates local branches.
-* `git checkout -b` / `git switch`: Creates and switches to a new branch.
-* `git push`: Uploads local branches and commits to GitHub.
-* `git pull`: Downloads and merges remote updates into the local workspace.
+## 4. My understanding
+* **Staging vs. Committing:** Staging (`git add`) selectively prepares files for the next snapshot without writing them permanently, while committing (`git commit`) seals staged modifications into an immutable, version-controlled history checkpoint.
+* **Branches and Pull Requests:** A branch provides an isolated environment to develop updates without endangering the stable codebase. A Pull Request facilitates peer review, collaboration, and discussion before integrating proposed changes into the primary branch.
 
-## 5. Difference Between Staging (`git add`) and Committing (`git commit`)
-* **Staging (`git add`):** Selects and prepares specific changes for the next snapshot without writing them to permanent history yet.
-* **Committing (`git commit`):** Records the staged snapshot permanently as a version-controlled checkpoint in the repository graph.
+## 5. Difficulties faced
+No major difficulties.
 
-## 6. Purpose of a Branch and a Pull Request
-* **Branch:** An isolated workspace that allows developers to develop features or fix bugs independently without affecting the stable `main` branch.
-* **Pull Request (PR):** A collaborative review mechanism on GitHub to propose, discuss, inspect, and safely merge branch changes into the primary codebase.
+## 6. How I resolved them
+Not applicable.
 
-## 7. Difficulties Faced & Resolution
-* **Difficulties faced:** None.
-* **Resolution:** Not applicable.
+## 7. Evidence / files
+* `mission-06-git-github/notes.md` (Contains workflow table, staging vs. commit analysis, branch/PR explanations, and Git glossary)
+* `mission-06-git-github/README.md`
+* GitHub Pull Request and branch activity on `nikhilaryan6115-design/digital-detective-8447`
 
-## 8. Evidence / Files
-* `notes.md` containing detailed task tables, step-by-step documentation, and Git command glossary.
-* `README.md` (this file).
-
-## 9. Commit Details
-* **Commit message:** Complete Git and GitHub collaboration mission
-* Pushed successfully to GitHub.
+## 8. Commit details
+* **Commit message:** `Complete Git and GitHub collaboration mission`
+* Pushed to remote: `https://github.com/nikhilaryan6115-design/digital-detective-8447`
